@@ -1,6 +1,5 @@
 <ng-template [ngIf]="scopes">
       <div class="oauth-scopes hint__content">
-        <span class="oauth-scopes-header">OAuth2 Scopes</span>
         <div class="oauth-scope">
 				<span *ngFor="let scope of scopes.scopes" [attr.data-hint]="scope.name" class="hint--rounded hint--bounce hint--bottom">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
